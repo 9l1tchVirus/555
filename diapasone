@@ -1,0 +1,8 @@
+import random 
+def generate_random_num():
+    maxim = int(input("Введите наименьшее значение:"))
+    minum = int(input("Введите наибольшее значение:"))
+    random_num = random.randint(maxim, minum)
+    return random_num
+random_num = generate_random_num()
+print("Случайное число:", random_num)
